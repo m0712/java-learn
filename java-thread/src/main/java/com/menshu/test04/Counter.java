@@ -1,4 +1,4 @@
-package com.menshu.test02;
+package com.menshu.test04;
 
 public class Counter {
 

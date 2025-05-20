@@ -1,0 +1,6 @@
+1.创建一个实现Callable的实现类, 可以通过设置泛型，指定call方法返回的类型
+2.实现call方法，将此线程需要执行的操作声明在call()中;
+3.创建Callable接口实现类的对象;
+4.将此Callable接口实现类的对象作为传递到FutureTask构造器中，创建FutureTask的对象
+5.将FutureTask的对象作为参数传递到Thread类的构造器中，创建Thread对象，并调用start()
+6.调用FutureTask对象的get方法，获取子线程执行结束后的返回值

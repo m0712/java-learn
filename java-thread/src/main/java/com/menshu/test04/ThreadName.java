@@ -1,4 +1,6 @@
-package com.menshu.test01;
+package com.menshu.test04;
+
+import com.menshu.test02.MyRunnable;
 
 public class ThreadName {
     public static void main(String[] args) {

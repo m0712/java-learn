@@ -1,4 +1,4 @@
-package com.menshu.test01;
+package com.menshu.test02;
 
 public class MyRunnable implements Runnable {
     @Override

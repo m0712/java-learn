@@ -1,4 +1,4 @@
-package com.menshu.test01;
+package com.menshu.test02;
 
 public class MyRunnableTest {
 
@@ -27,12 +27,12 @@ public class MyRunnableTest {
     //实现Runnable接口的匿名Java类
     public Runnable test2(){
         Runnable myRunnable =
-                new Runnable(){
-                    @Override
-                    public void run(){
-                        System.out.println("Runnable running 2");
-                    }
-                };
+            new Runnable(){
+                @Override
+                public void run(){
+                    System.out.println("Runnable running 2");
+                }
+            };
         return myRunnable;
     }
 
